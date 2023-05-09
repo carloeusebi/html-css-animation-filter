@@ -98,10 +98,25 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation: oneturn 1s linear infinite reverse;
 }
+
+@keyframes oneturn {
+    to{
+        transform: rotate(1turn);
+    }
+    
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation: oneturn 2s linear infinite;
+}
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
